@@ -1,0 +1,8 @@
+apiVersion: pipelines.experto.dev/v1
+kind: Repository
+facts:
+  components:
+    - {id: organization-profile, roots: [profile], languages: [markdown], frameworks: []}
+    - {id: repository-readme, roots: [README.md], languages: [markdown], frameworks: []}
+    - {id: public-workflow, roots: [.github/workflows], languages: [yaml], frameworks: []}
+bindings: []
